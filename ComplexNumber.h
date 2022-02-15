@@ -1,5 +1,5 @@
-#ifndef HEADERFILE_H
-#define HEADERFILE_H
+#ifndef COMPLEXNUMBER_H
+#define COMPLEXNUMBER_H
 
 class ComplexNumber{
     public:
@@ -12,6 +12,5 @@ class ComplexNumber{
         ComplexNumber subtract(ComplexNumber other);
         ComplexNumber multiply(ComplexNumber other);
         ComplexNumber divide(ComplexNumber other);
-
 };
 #endif
