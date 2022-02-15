@@ -1,3 +1,6 @@
+#ifndef HEADERFILE_H
+#define HEADERFILE_H
+
 class ComplexNumber{
     public:
         double r, i;
@@ -11,3 +14,4 @@ class ComplexNumber{
         ComplexNumber divide(ComplexNumber other);
 
 };
+#endif
